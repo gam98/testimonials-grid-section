@@ -35,11 +35,11 @@ body {
 .card {
     padding: 18px;
     border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card__container {
     display: flex;
     align-items: center;
-    /* border: 1px solid red;   */
 }
 .card__img {
     border-radius: 50%; 
@@ -71,6 +71,11 @@ body {
     grid-row: 1/2;
     color: var(--white);
     background-color: var(--moderate-violet);
+}
+.card--Daniel {
+    background: url(./../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 80% 0;
 }
 .card__name--Daniel {
     color: var(--light-gray);
